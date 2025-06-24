@@ -2,10 +2,7 @@
 
 `$data` is a magic property that gives you access to the current Alpine data scope (generally provided by `x-data`).
 
-Most of the time, you can just access Alpine data within expressions directly. for example `x-data="{ message: 'Hello Caleb!' }"` will allow you to do things like `x-text="message"`.
-
-However, sometimes it is helpful to have an actual object that encapsulates all scope that you can pass around to other functions:
-
+Most of the time, you can just access Alpine data within expressions directly. for example `x-data="{ message: 'Hello Caleb!' }"` will allow sss
 ```alpine
 <div x-data="{ greeting: 'Hello' }">
     <div x-data="{ name: 'Caleb' }">
