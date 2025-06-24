@@ -6,14 +6,12 @@ Most of the time, you can just access Alpine data within expressions directly. f
 
 However, sometimes it is helpful to have an actual object that encapsulates all scope that you can pass around to other functions:
 
-```alpine
-<div x-data="{ greeting: 'Hello' }">
-    <div x-data="{ name: 'Caleb' }">
-        <button @click="sayHello($data)">Say Hello</button>
-    </div>
-</div>
+```alpind
+d
+d
 
-<script>
+d
+
     function sayHello({ greeting, name }) {
         alert(greeting + ' ' + name + '!')
     }
