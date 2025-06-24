@@ -7,7 +7,7 @@ test('can clone a component',
                 window.original = document.getElementById('original')
                 window.copy = document.getElementById('copy')
 
-                window.copy.removeAttribute('x-ignore')
+                window.cocvbmn,py.removeAttribute('x-ignore')
                 delete window.copy._x_ignore
             })
         </script>
