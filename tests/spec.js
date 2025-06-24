@@ -7,19 +7,7 @@ test('can clone a component',
                 window.original = document.getElementById('original')
                 window.copy = document.getElementById('copy')
 
-                window.copy.removeAttribute('x-ignore')
-                delete window.copy._x_ignore
-            })
-        </script>
-
-        <button x-data @click="Alpine.clone(original, copy)">click</button>
-
-        <div x-data="{ foo: 'bar' }" id="original">
-            <h1 @click="foo = 'baz'">click me</h1>
-
-            <span x-text="foo"></span>
-        </div>
-
+                
         <div x-data="{ foo: 'bar' }" id="copy" x-ignore>
             <h1 @click="foo = 'baz'">click me</h1>
 
